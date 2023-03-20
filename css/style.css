@@ -5,7 +5,19 @@
 }
 
 
+button {
+    border-radius: 20px;
+    height: auto;
+    padding: 10px;
+}
 
+button.blu-notte {
+    background-color: blue;
+}
+
+button.blu-chiaro {
+    background-color: azure;
+}
 
 
 .flex-container {
@@ -20,6 +32,7 @@
     gap: 50px;
     display: flex;
     align-content: space-around;
+    align-items: center;
 }
 
 a{
@@ -48,6 +61,8 @@ a{
 /* seconda section */
 .flex-section-second {
     padding: 70px;
+    width: 80%;
+    margin: 0 auto;
 
 
     display: flex;
@@ -62,7 +77,8 @@ a{
 .four-section {
     text-align: center;
     background-color: rgb(137, 126, 126) ;
-   
+    width: 80%;
+    margin: 0 auto;
     padding: 70px;
 
     display: flex;
@@ -82,11 +98,19 @@ a{
 
 .border-bottom {
     border-bottom: 2px solid gray;
+    padding: 15px;
 }
 
 .flex-footer {
     display: flex;
     justify-content: space-between;
+
+    padding-top: 10px;
+}
+
+footer {
+    width: 100%;
+    margin: 0 auto;
 }
 
 /* regole debug */
@@ -144,3 +168,16 @@ footer {
     justify-content: space-around;
 }
 
+
+
+.sfondo {
+    width: 100%;
+    background-color: gray
+}
+
+
+.contenitore-footer {
+    width: 80%;
+    margin: 0 auto;
+    background-color: yellow;
+}
