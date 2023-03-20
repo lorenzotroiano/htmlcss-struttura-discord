@@ -30,6 +30,33 @@ a{
     padding: 50px;
 }
 
+
+
+/* regole per il contenuto principale */
+.flex-section {
+    padding: 70px;
+    
+    display: flex;
+    justify-content: space-around;
+
+    background-color: rgb(255, 255, 255);
+    min-height: 450px;
+}
+
+
+/* seconda section */
+.flex-section-second {
+    padding: 70px;
+
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+    background-color: rgb(137, 126, 126);
+    min-height: 450px;
+}
+
 /* regole debug */
 
 header {
@@ -51,12 +78,21 @@ nav {
 }
 
 .debug {
-    background-color: gray;
+    
     min-height: 450px;
+    border: solid 3px red;
+
 }
 
-.flex-container2{
-    display: flex;
-    justify-content: center;
+.immaginetta {
+    background-color: blue;
+    width: 200px;
     
 }
+
+
+.section-color {
+    background-color: olivedrab;
+}
+
+
